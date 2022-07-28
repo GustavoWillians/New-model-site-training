@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta&display=swap');
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("https://fonts.googleapis.com/css?family=Montserrat&display=swap")
+}
+
+@font-face {
+    font-family: 'LEMON MILK REGULAR';
+    src: url('/Fontes/LEMONMILK-Regular.otf')
+}
+
+@font-face {
+    font-family: 'LEMON MILK MEDIUM';
+    src: url('/Fontes/LEMONMILK-Medium.otf')
+}
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('/Fontes/Montserrat-Regular.ttf')
+}
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url('/Fontes/Montserrat-Light.ttf')
+}
+@font-face {
+    font-family: 'Montserrat Thin';
+    src: url('/Fontes/Montserrat-Light.ttf')
+}
+
+body{
+    margin: 0 auto;
+    overflow-x:hidden;
+    padding: 0;
+    
+}
+
+::-webkit-scrollbar{
+    background-color: rgb(238, 175, 39);
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #0A3657;
+}
+
+
+.telaum {
+    background-image: url(/images/capaeditada.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 100vmax ;
+    height: auto;
+
+}
+
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 82px;
+    width:  100vmax;
+    gap: 375px;
+    background: rgba(0, 0, 0, 0.1);
+    
+
+}
+
+
+
+.logoduque {
+    width: auto;
+    height: 70px;
+    
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 59px;
+}
+
+.barracima {
+    font-family: 'Montserrat Thin';
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 620px;
+
+}
+
+.conteudo-invisivel{
+    width: 290px;
+    height: 248px;
+}
+
+
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction:column;
+
+    
+
+}
+
+.textoum {
+    font-family: 'LEMON MILK MEDIUM';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+}
+
+.textodois {
+    font-family: 'Montserrat Thin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.teladois {
+    height: 248px;
+    width: 100vmax;
+    background: #0A3657;
+   /* margin-top: -160px;*/
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+
+}
+
+
+
+.orcamentos {
+    margin-bottom: 25px;
+    font-family: 'Montserrat Thin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+.partedois {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 172px;
+    height: 54px;
+    background: #FEA500;
+}
+
+.botao {  
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 47px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.partetres {
+    width: 370px;
+    height: 248px;
+    background: #ffffff;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    font-family: 'LEMON MILK REGULAR';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FEA500;
+}
+
+.iconesgerais {
+    display: flex;
+    flex-direction: column;
+    margin-left: 02%;
+    gap: 15px;
+
+
+}
+
+.icones {
+    width: 39px;
+    height: 39px;
+
+}
+
+
+.linhas {
+    margin-left: 12%;
+    margin-top: -4%;
+    width: 294.29px;
+    border: 1px solid #FEA500;
+}
+
+.textoextra {
+    margin-left: 12%;
+    margin-top: -13%;
+    font-family: 'Montserrat Thin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none
+}
+
+.espacocontato {
+    display: flex;
+    justify-content: space-around;
+}
+
+.entrecontato {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 144px;
+    height: 35px;
+    background: #FEA500;
+    margin-top: 30px;
+
+}
+
+.caixacontato {
+
+    white-space: nowrap;
+    font-family: 'LEMON MILK MEDIUM';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.telatres {
+    height: 576px;
+    width: 100vmax;
+    background: #ffffff;
+
+}
+
+.area {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: 'LEMON MILK MEDIUM';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    color: #FEA500;
+}
+
+.titulos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo {
+    display: flex;
+    font-family: 'LEMON MILK MEDIUM';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.sessaoblocos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around  ;
+}
+
+.projetos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.servicos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.blocos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px;
+    width: 159px;
+    height: 119px;
+    background: #E7E7E7;
+
+}
+
+.textobloco {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: -33px;
+
+    font-family: 'Montserrat Light';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0A3657;
+}
+
+.imgtext {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -15px;
+    width: 100px;
+}
+
+.telaquatro {
+    height: 199px;
+    width: 100vmax;
+    top: 1585px;
+
+    background: #E3E3E3;
+}
+
+.dadossperiores {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 118px;
+
+}
+
+.textosuperior {
+    font-family: 'Montserrat Thin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+
+}
+.contatar{
+    margin-left: -21%;
+}
+
+.dadosmedios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+
+.creanum{
+    margin-left: 18px;
+}
+
+.enderecolocal{
+    margin-left: 20px;
+}
+
+.mediotexto {
+    font-family: 'Montserrat Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 23px;
+
+    color: #000000;
+
+
+}
+
+
+.iconesgeraisdois {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+}
+
+.iconesdois {
+    width: 39px;
+    margin-left: -24%;
+}
+
+
+.textoextradois {
+    margin-left: -7%;
+    margin-top: -15%;
+    font-family: 'Montserrat Thin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+}
